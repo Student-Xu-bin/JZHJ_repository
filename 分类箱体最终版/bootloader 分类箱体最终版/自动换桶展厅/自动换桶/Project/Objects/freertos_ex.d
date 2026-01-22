@@ -1,0 +1,11 @@
+.\objects\freertos_ex.o: ..\User\App\freertos_ex.c
+.\objects\freertos_ex.o: ..\Third_Party\FreeRTOS\include\FreeRTOS.h
+.\objects\freertos_ex.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\freertos_ex.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\freertos_ex.o: ..\User\include\T_FreeRTOSConfig.h
+.\objects\freertos_ex.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\freertos_ex.o: ..\Third_Party\FreeRTOS\include\projdefs.h
+.\objects\freertos_ex.o: ..\Third_Party\FreeRTOS\include\portable.h
+.\objects\freertos_ex.o: ..\Third_Party\FreeRTOS\include\deprecated_definitions.h
+.\objects\freertos_ex.o: ..\Third_Party\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\freertos_ex.o: ..\Third_Party\FreeRTOS\include\mpu_wrappers.h

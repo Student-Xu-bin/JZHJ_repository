@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "74hc595.h": "c",
+        "motor_driver.h": "c",
+        "autochange.h": "c",
+        "stepper.h": "c",
+        "linear_actuator.h": "c",
+        "fulllight.h": "c"
+    }
+}

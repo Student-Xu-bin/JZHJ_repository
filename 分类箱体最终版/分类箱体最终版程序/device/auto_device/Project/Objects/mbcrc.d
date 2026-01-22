@@ -1,0 +1,16 @@
+.\objects\mbcrc.o: ..\Third_Party\Modbus\rtu\mbcrc.c
+.\objects\mbcrc.o: ..\Third_Party\Modbus\driver\port.h
+.\objects\mbcrc.o: D:\keil\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbcrc.o: D:\keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbcrc.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\FreeRTOS.h
+.\objects\mbcrc.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\T_FreeRTOSConfig.h
+.\objects\mbcrc.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\projdefs.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\portable.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\deprecated_definitions.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\mpu_wrappers.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\task.h
+.\objects\mbcrc.o: ..\Third_Party\FreeRTOS\include\list.h

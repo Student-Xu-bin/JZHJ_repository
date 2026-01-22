@@ -1,0 +1,16 @@
+.\objects\create_task.o: ..\User\App\create_task.c
+.\objects\create_task.o: ..\User\App\create_task.h
+.\objects\create_task.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\FreeRTOS.h
+.\objects\create_task.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\create_task.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\create_task.o: ..\User\include\T_FreeRTOSConfig.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\projdefs.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\portable.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\deprecated_definitions.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\mpu_wrappers.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\task.h
+.\objects\create_task.o: ..\Third_Party\FreeRTOS\include\list.h
+.\objects\create_task.o: ..\User\BSP\74hc595.h
+.\objects\create_task.o: ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h
