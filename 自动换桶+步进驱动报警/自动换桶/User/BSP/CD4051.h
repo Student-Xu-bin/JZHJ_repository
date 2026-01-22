@@ -1,0 +1,56 @@
+#ifndef __CD4051_H__
+#define __CD4051_H__
+
+#include "gd32f30x.h"
+#include "74hc595.h"
+#include "defines.h"
+
+typedef enum {
+    KEY_DET = 6,
+	IR_DET = 5,
+	GS_DET = 7,
+	STEPPER_ALM_DET = 0xff,
+	DOOR_EXIST_DET = 3,
+	STEPPER_ZERO_DET = 4,
+	STEPPER_TAIL_DET = 0,
+	DOOR_OPEN_DET = 2,
+	DOOR_CLOSE_DET = 1,
+}cd4051_detect_enum_t;
+
+#define 	CD4051_CH1_INPUT_GPIO 		GPIOA
+#define 	CD4051_CH1_INPUT_GPIO_RCU 	RCU_GPIOA
+#define 	CD4051_CH1_INPUT_PIN 		GPIO_PIN_4
+
+#define 	CD4051_CH2_INPUT_GPIO 		GPIOA
+#define 	CD4051_CH2_INPUT_GPIO_RCU 	RCU_GPIOA
+#define 	CD4051_CH2_INPUT_PIN 		GPIO_PIN_6
+
+#define 	CD4051_CH3_INPUT_GPIO 		GPIOC
+#define 	CD4051_CH3_INPUT_GPIO_RCU 	RCU_GPIOC
+#define 	CD4051_CH3_INPUT_PIN 		GPIO_PIN_4
+
+#define 	CD4051_CH4_INPUT_GPIO 		GPIOB
+#define 	CD4051_CH4_INPUT_GPIO_RCU 	RCU_GPIOB
+#define 	CD4051_CH4_INPUT_PIN 		GPIO_PIN_0
+
+#define 	CD4051_CH5_INPUT_GPIO 		GPIOE
+#define 	CD4051_CH5_INPUT_GPIO_RCU 	RCU_GPIOE
+#define 	CD4051_CH5_INPUT_PIN 		GPIO_PIN_7
+
+#define 	CD4051_CH6_INPUT_GPIO 		GPIOE
+#define 	CD4051_CH6_INPUT_GPIO_RCU 	RCU_GPIOE
+#define 	CD4051_CH6_INPUT_PIN 		GPIO_PIN_9
+
+///mmmm
+#define 	CD4051_ALM_DETECT_GPIO		GPIOA
+#define		CD4051_ALM_DETECT_RCU		RCU_GPIOA
+#define   	CD4051_ALM_DETECT_PIN		GPIO_PIN_15
+
+#if 0
+enum channel_enum_t {CHANNEL_1, CHANNEL_2, CHANNEL_3, CHANNEL_4, CHANNEL_5, CHANNEL_6, STEPPER_ALARM};
+#endif
+
+void cd4051_init(void);
+FlagStatus cd4051_detect(enum channel_enum_t ch, cd4051_detect_enum_t fun);
+
+#endif
