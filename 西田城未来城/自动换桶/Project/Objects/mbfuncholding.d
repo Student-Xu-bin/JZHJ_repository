@@ -1,0 +1,12 @@
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\functions\mbfuncholding.c
+.\objects\mbfuncholding.o: D:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbfuncholding.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\driver\port.h
+.\objects\mbfuncholding.o: D:\keil\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbfuncholding.o: D:\keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbfuncholding.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\include\mb.h
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\include\mbport.h
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\include\mbproto.h
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\include\mbframe.h
+.\objects\mbfuncholding.o: ..\Third_Party\Modbus\include\mbconfig.h

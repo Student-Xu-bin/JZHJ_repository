@@ -1,0 +1,13 @@
+.\objects\mbrtu.o: ..\Third_Party\Modbus\rtu\mbrtu.c
+.\objects\mbrtu.o: D:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbrtu.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\driver\port.h
+.\objects\mbrtu.o: D:\keil\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbrtu.o: D:\keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbrtu.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\include\mb.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\include\mbport.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\include\mbproto.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\rtu\mbrtu.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\include\mbframe.h
+.\objects\mbrtu.o: ..\Third_Party\Modbus\rtu\mbcrc.h

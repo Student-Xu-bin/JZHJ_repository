@@ -1,0 +1,10 @@
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\modbus_slave.c
+.\objects\modbus_slave.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\include\mb.h
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\driver\port.h
+.\objects\modbus_slave.o: D:\keil\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\modbus_slave.o: D:\keil\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\include\mbport.h
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\include\mbproto.h
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\include\mbutils.h
+.\objects\modbus_slave.o: ..\Third_Party\Modbus\modbus_slave.h

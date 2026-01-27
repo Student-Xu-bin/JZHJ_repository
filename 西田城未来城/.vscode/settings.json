@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "74hc595.h": "c",
+        "motor_driver.h": "c"
+    }
+}
